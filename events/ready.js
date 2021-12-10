@@ -4,7 +4,7 @@ export default new Event({
   event: 'ready',
   once: true,
 
-  run() {
-    console.log('ready!');
+  run(client) {
+    console.log(`Ready! Logged in as ${client.user.tag}`);
   },
 });
