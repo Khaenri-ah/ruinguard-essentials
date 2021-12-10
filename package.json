@@ -7,8 +7,8 @@
     "ruinguard",
     "essentials"
   ],
-  "homepage": "https://github.com/SayuMains/RuinGuard#readme",
-  "bugs": "https://github.com/SayuMains/RuinGuard/issues",
+  "homepage": "https://github.com/Khaenri-ah/ruinguard-essentials#readme",
+  "bugs": "https://github.com/Khaenri-ah/ruinguard-essentials/issues",
   "type": "module",
   "author": {
     "name": "AroLeaf",
@@ -27,7 +27,7 @@
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SayuMains/RuinGuard.git",
+    "url": "https://github.com/Khaenri-ah/ruinguard-essentials.git",
     "directory": "essentials/"
   },
   "exports": "./index.js",
@@ -36,6 +36,6 @@
     "file-ez": "^0.2.2"
   },
   "devDependencies": {
-    "@ruinguard/core": "file:../core"
+    "@ruinguard/core": "file:../ruinguard-core"
   }
 }
