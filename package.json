@@ -1,0 +1,41 @@
+{
+  "name": "@ruinguard/essentials",
+  "version": "0.1.2",
+  "description": "A few essential commands for RuinGuard",
+  "keywords": [
+    "modular",
+    "ruinguard",
+    "essentials"
+  ],
+  "homepage": "https://github.com/SayuMains/RuinGuard#readme",
+  "bugs": "https://github.com/SayuMains/RuinGuard/issues",
+  "type": "module",
+  "author": {
+    "name": "AroLeaf",
+    "url": "https://leaf.moe/"
+  },
+  "contributors": [
+    {
+      "name": "MRDGH2821",
+      "url": "https://bit.ly/mrdgh2821"
+    },
+    {
+      "name": "Zyla",
+      "url": "https://github.com/Eilyz"
+    }
+  ],
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SayuMains/RuinGuard.git",
+    "directory": "essentials/"
+  },
+  "exports": "./index.js",
+  "dependencies": {
+    "@ruinguard/core": "^0.1.1",
+    "file-ez": "^0.2.2"
+  },
+  "devDependencies": {
+    "@ruinguard/core": "file:../core"
+  }
+}
