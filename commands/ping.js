@@ -7,6 +7,6 @@ export default new Command({
   },
 
   async run(interaction) {
-    return interaction.embed(`my current ping: ${interaction.client.ws.ping}ms`);
+    return interaction.embed(`pong! My ping is ${interaction.client.ws.ping}ms`);
   },
 });
