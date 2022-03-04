@@ -31,7 +31,7 @@
   },
   "exports": "./index.js",
   "dependencies": {
-    "@ruinguard/core": "^1.0.0",
+    "@ruinguard/core": "^2.0.3",
     "file-ez": "^0.2.2"
   },
   "devDependencies": {
