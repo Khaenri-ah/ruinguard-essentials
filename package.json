@@ -1,6 +1,6 @@
 {
   "name": "@ruinguard/essentials",
-  "version": "0.1.2",
+  "version": "1.0.0",
   "description": "A few essential commands for RuinGuard",
   "keywords": [
     "modular",
@@ -27,15 +27,14 @@
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Khaenri-ah/ruinguard-essentials.git",
-    "directory": "essentials/"
+    "url": "https://github.com/Khaenri-ah/ruinguard-essentials.git"
   },
   "exports": "./index.js",
   "dependencies": {
-    "@ruinguard/core": "^0.1.1",
+    "@ruinguard/core": "^1.0.0",
     "file-ez": "^0.2.2"
   },
   "devDependencies": {
-    "@ruinguard/core": "file:../ruinguard-core"
+    "eslint-config-ruinguard": "^1.0.0"
   }
 }
